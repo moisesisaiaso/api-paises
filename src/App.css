@@ -15,10 +15,17 @@ body {
     justify-content: center;
     align-items: center;
     width: 35%;
+    min-width: 22rem;
     height: 100vh;
     row-gap: 2rem;
     padding: 3rem;
     margin: 15px auto;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    min-width: 22rem;
 }
 
 form {

@@ -28,7 +28,7 @@ function App() {
     return (
         <>
             <div className="container">
-                <h1>API DE PAÍSES</h1>
+                <h1 className="title">API DE PAÍSES</h1>
                 <SearchByContry setSearch={setSearch} />
                 {exist ? (
                     <CountryCard country={country} isloading={isloading} />
