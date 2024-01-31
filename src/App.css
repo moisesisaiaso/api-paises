@@ -20,7 +20,7 @@ body {
     row-gap: 2rem;
     padding: 2.5rem;
     margin: 15px auto;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .title {
